@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+  background-color: #F3F1FF !important;
+}
 h5.top-text {
     color: rgb(104, 81, 255);
 }
@@ -29,3 +32,45 @@ p.num-box {
 img {
     object-fit: contain;
 }
+h2.sec2-heading {
+    font-size: 42px;
+    font-weight: 700;
+}
+h2.sec22-heading {
+    font-size: 23px;
+    font-weight: 700;
+}
+.white-box {
+    border-radius: 20px;
+    background-color: white;
+}
+/* upload sec css */
+
+.upload-box {
+      border: 2px dashed #7f53ff;
+      border-radius: 10px;
+      background-color: #f7f4ff;
+      padding: 20px 20px;
+      text-align: center;
+      color: #5a4fcf;
+    }
+
+    .upload-box .btn-upload {
+      background-color: #7f53ff;
+      color: white;
+      font-weight: 600;
+      border: none;
+    }
+
+    .upload-box .btn-upload:hover {
+      background-color: #6844cc;
+    }
+
+    .upload-box .bi {
+      font-size: 2rem;
+      color: #7f53ff;
+    }
+
+    .upload-box small {
+      color: #6c757d;
+    }
