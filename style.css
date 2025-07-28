@@ -207,3 +207,36 @@ ul.d-flex.icons li {
     font-size: 28px;
     margin-right: 50px;
 }
+
+@media screen and (max-width: 767px) {
+  
+  body {
+    font-size: 14px;
+  }
+  .main-navigation ul {
+    flex-direction: column;
+  }
+  .hero-image {
+    height: 200px;
+  }
+  .upload-sec {
+    width: 97% !important;
+}
+.upload-botm small {
+    color: #050505;
+    font-size: 17px;
+}
+h2.sec2-heading {
+    font-size: 30px;
+    font-weight: 700;
+}
+h2.sec-heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+h2.main-heading {
+    font-size: 37px;
+    font-weight: 700;
+}
+}
