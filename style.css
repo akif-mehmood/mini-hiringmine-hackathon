@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
 body {
-  background-color: #F3F1FF !important;
+  background: white;
+}
+main.main {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 4%, rgba(243, 241, 255, 1) 35%);
 }
 h5.top-text {
     color: rgb(104, 81, 255);
@@ -57,7 +59,7 @@ h2.sec22-heading {
 p.heading-line.text-center {
     font-size: 22px;
 }
-/* upload sec css */
+/* upload section top start css  */
 
 .upload-box {
       border: 2px dashed #7f53ff;
@@ -77,16 +79,55 @@ p.heading-line.text-center {
 
     .upload-box .btn-upload:hover {
       background-color: #6844cc;
+      color: white;
     }
 
     .upload-box .bi {
-      font-size: 2rem;
-      color: #7f53ff;
+      font-size: 3rem;
+      color: #6844cc;
     }
 
     .upload-box small {
       color: #6c757d;
     }
+    /* upload section top end css  */
+
+    /* upload section down start css  */
+
+.upload-botm {
+      border: 1px dashed #7f53ff;
+      border-radius: 10px;
+      background-color: #f7f4ff;
+      padding: 20px 20px;
+      text-align: center;
+      color: #5a4fcf;
+    }
+
+    .upload-botm .btn-upload {
+      background-color: #7f53ff;
+      color: white;
+      font-weight: 600;
+      border: none;
+    }
+
+    .upload-botm .btn-upload:hover {
+      background-color: #6844cc;
+      color: white;
+    }
+
+    .upload-botm .bi {
+      font-size: 1.5rem;
+      color: #6844cc;
+    }
+
+    .upload-botm small {
+      color: #050505;
+      font-size: 18px;
+    }
+    .upload-sec .upload-botm {
+    background-color: white;
+}
+    /* upload section down end css  */
 
     /* accordian */
 .accordion {
@@ -111,4 +152,58 @@ p.heading-line.text-center {
   display: none;
   background-color: white;
   overflow: hidden;
+}
+i.bi.bi-check-circle {
+    color: #6851ff;
+    font-size: 21px;
+}
+ul.points-list {
+    list-style: none;
+    padding: 0px;
+}
+div#accordionFlushExample {
+    padding: 0px;
+}
+.active, .accordion:hover {
+    background-color: transparent;
+}
+.active, .accordion {
+    background-color: transparent;
+}
+.accordion-flush>.accordion-item:first-child {
+    margin-bottom: 15px;
+}
+.btn-upload .bi {
+  font-size: 1rem;
+      color: white;
+}
+.upload-sec {
+    width: 40% !important;
+}
+.upload-botm p {
+    font-size: 22px !important;
+}
+p.text-color {
+  padding-top: 20px;
+    font-size: 16px !important;
+    color: black;
+}
+.text-color i.bi.bi-lock-fill {
+    color: gray;
+    font-size: 18px;
+}
+/* footer */
+footer.footer.mt-5 {
+    padding: 60px 0px 20px 0px;
+    background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
+}
+footer ul {
+    list-style: none !important;
+    color: white;
+    padding: 0px;
+}
+ul.d-flex.icons li {
+    margin-top: 10px;
+    font-size: 28px;
+    margin-right: 50px;
 }

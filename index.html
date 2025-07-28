@@ -11,11 +11,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
   <!-- Nav bar start -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-lg-top">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="./assest/Hiring Mine Logo-453a72d3.png" width="186px" height="36px" alt="" />
@@ -59,7 +60,7 @@
     </div>
   </nav>
   <!-- Navbar end  -->
-
+<main class="main">
   <!-- top section start-->
   <div class="container mt-5 mb-5">
     <div class="row">
@@ -74,11 +75,7 @@
           <div class="row justify-content-center">
             <div class="">
               <div class="upload-box">
-                <i class="bi bi-cloud-arrow-up-fill"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
-                    fill="currentColor" class="bi bi-cloud-arrow-up-fill" viewBox="0 0 16 16">
-                    <path
-                      d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2m2.354 5.146a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0z" />
-                  </svg></i>
+                <i class="bi bi-cloud-arrow-up-fill"></i>
                 <h5 class="mt-3">Upload Your Resume</h5>
                 <small>PDF format only, max 5MB</small>
                 <br>
@@ -146,186 +143,228 @@
 
     <div class="row mt-5">
 
+
+
       <div class="box1 col-sm-12 col-md-6 col-lg-4">
-        <div class="d-flex flex-row p-3">
+
+        
           <div class="text-concent mx-4">
             <h2 class="third-heading">Resume optimization checklist</h2>
             <p>We check for 16 crucial things across 5 different categories on your resume including content, file type,
               and keywords in the most important sections of your resume.</p>
           </div>
-        </div>
-      </div>
 
-      <div class="box1 col-sm-12 col-md-6 col-lg-4">
-        <div class="white-box d-flex flex-row p-3">
-          <div class="text-concent mx-4">
-            <p class="num-box">1</p>
-            <h5>Skills Suggestion</h5>
-            <ul>
-              <li>Hard skills</li>
-              <li>Soft skills</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="box1 col-sm-12 col-md-6 col-lg-4">
-        <div class="white-box d-flex flex-row p-3">
-          <div class="text-concent mx-4">
-            <p class="num-box">1</p>
-            <h5>Resume sections</h5>
-            <ul>
-              <li>Contact information</li>
-              <li>Essential sections</li>
-              <li>Personality showcase with tips on how to improve</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="row">
-
-      <div class="box1 col-sm-12 col-md-6 col-lg-4">
-        <div class="white-box d-flex flex-row p-3">
+          <div class="white-box p-3 mb-4">
           <div class="text-concent mx-4">
             <p class="num-box">1</p>
             <h5>Content</h5>
-            <ul>
-              <li>ATS parse rate</li>
-              <li>Repetition of words and phrases</li>
-              <li>Spelling and grammar</li>
-              <li>Quantifying impact in experience section with examples</li>
+            <ul class="points-list">
+              <li><i class="bi bi-check-circle"></i> ATS parse rate</li>
+              <li><i class="bi bi-check-circle"></i> Repetition of words and phrases</li>
+              <li><i class="bi bi-check-circle"></i> Spelling and grammar</li>
+              <li><i class="bi bi-check-circle"></i> Quantifying impact in experience section with examples</li>
             </ul>
           </div>
         </div>
+
+        
       </div>
 
       <div class="box1 col-sm-12 col-md-6 col-lg-4">
-        <div class="white-box d-flex p-3">
+
+        <div class="white-box p-3">
+          <div class="text-concent mx-4">
+            <p class="num-box">1</p>
+            <h5>Skills Suggestion</h5>
+            <ul class="points-list">
+              <li><i class="bi bi-check-circle"></i> Hard skills</li>
+              <li><i class="bi bi-check-circle"></i> Soft skills</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="white-box p-3 mt-4 mb-4">
           <div class="text-concent mx-4">
             <p class="num-box">1</p>
             <h5>Format</h5>
-            <ul>
-              <li>File format and size</li>
-              <li>Resume length</li>
-              <li>Long bullet points with suggestions on how to shorten</li>
+            <ul class="points-list">
+              <li><i class="bi bi-check-circle"></i> File format and size</li>
+              <li><i class="bi bi-check-circle"></i> Resume length</li>
+              <li><i class="bi bi-check-circle"></i> Long bullet points with suggestions on how to shorten</li>
             </ul>
           </div>
         </div>
+
       </div>
 
       <div class="box1 col-sm-12 col-md-6 col-lg-4">
-        <div class="white-box d-flex flex-row p-3">
+
+        <div class="white-box p-3">
+          <div class="text-concent mx-4">
+            <p class="num-box">1</p>
+            <h5>Resume sections</h5>
+            <ul class="points-list">
+              <li><i class="bi bi-check-circle"></i> Contact information</li>
+              <li><i class="bi bi-check-circle"></i> Essential sections</li>
+              <li><i class="bi bi-check-circle"></i> Personality showcase with tips on how to improve</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="white-box p-3 mt-4">
           <div class="text-concent mx-4">
             <p class="num-box">1</p>
             <h5>Style</h5>
-            <ul>
-              <li>Resume design</li>
-              <li>Email address</li>
-              <li>Usage of active voice</li>
-              <li>Usage of buzzwords and cliches</li>
+            <ul class="points-list">
+              <li><i class="bi bi-check-circle"></i> Resume design</li>
+              <li><i class="bi bi-check-circle"></i> Email address</li>
+              <li><i class="bi bi-check-circle"></i> Usage of active voice</li>
+              <li><i class="bi bi-check-circle"></i> Usage of buzzwords and cliches</li>
             </ul>
           </div>
         </div>
       </div>
 
     </div>
-    <!-- section 3 start-->
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col-lg-6 img-box">
-          <img src="./assest/AtsUnderstandingcheck-6db6b0e0.png" alt="resumescanner" class="img-fluid" width="100%"
-            height="100%">
-        </div>
 
-        <div class="col-lg-6 content-box align-content-center">
-          <h2 class="fourth-heading">Get an ATS understanding check</h2>
-          <p>Part of the resume checker score we assign is based on the parsability rate of your resume. We’ve
-            reverse-engineered the most popular applicant tracking systems currently used and we look for signs of ATS
-            compatibility.</p>
-          <p>For each resume uploaded, we look for skills and keywords connected to the job and industry you’re applying
-            for, readable contact information, file type, and length. Then, we’ll give you suggestions on how to improve
-            your resume.</p>
+  </div>
+  <!-- section 3 start-->
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-lg-6 img-box">
+        <img src="./assest/AtsUnderstandingcheck-6db6b0e0.png" alt="resumescanner" class="img-fluid" width="100%"
+          height="100%">
+      </div>
+
+      <div class="col-lg-6 content-box align-content-center">
+        <h2 class="fourth-heading">Get an ATS understanding check</h2>
+        <p>Part of the resume checker score we assign is based on the parsability rate of your resume. We’ve
+          reverse-engineered the most popular applicant tracking systems currently used and we look for signs of ATS
+          compatibility.</p>
+        <p>For each resume uploaded, we look for skills and keywords connected to the job and industry you’re applying
+          for, readable contact information, file type, and length. Then, we’ll give you suggestions on how to improve
+          your resume.</p>
+      </div>
+    </div>
+  </div>
+  <!-- section 3 end -->
+
+  <!-- section 4 start -->
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <div class="heading">
+        <h2 class="fourth-heading text-center mt-5">Get your resume score now!</h2>
+        <p class="heading-line text-center">Upload your resume and you’ll get a personalized email with an actionable
+          task list.</p>
+      </div>
+
+      <div class="upload-sec">
+        <div class="upload-botm">
+          <i class="bi bi-cloud-arrow-up-fill"></i>
+          <br>
+          <label class="btn btn-upload">
+            <i class="bi bi-cloud-arrow-up"></i> SELECT FILE
+            <input type="file" accept="application/pdf" hidden>
+          </label>
+          <br>
+          <small class="">Drop Your Resume here or choose a file. <br>PDF & DOCX only. Max 2MB file size.</small>
+          <br>
+          <p class="text-color"><i class="bi bi-lock-fill"></i>Privacy guaranteed</p>
         </div>
       </div>
     </div>
-    <!-- section 3 end -->
+  </div>
+  <!-- section 4 end -->
 
-    <!-- section 4 start -->
+  <!-- section 5 start -->
+  <div class="container">
+    <div class="row mt-5">
+      <div class="accordion-heading">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="accordian">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the first item’s accordion body.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this
+                being filled with some actual content.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section 5 end  -->
+
+  <!-- footer start  -->
+   <footer class="footer mt-5">
     <div class="container">
       <div class="row">
 
-        <div class="heading">
-          <h2 class="fourth-heading text-center mt-5">Get your resume score now!</h2>
-          <p class="heading-line text-center">Upload your resume and you’ll get a personalized email with an actionable
-            task list.</p>
+        <div class="col-md-9">
+          <ul class="w-50">
+            <li><img src="./assest/download.png" alt=""></li>
+            <li class="py-2">Built with ❤️ in Pakistan for the World.</li>
+            <li>HiringMine bridges top talent and visionary companies through a smart, streamlined platform. Empowering candidates to shine, and employers to hire better — faster. Your next opportunity, powered by technology and trust.</li>
+          </ul>
+          <h2 class="fs-4 fw-bold text-white ">Follow us</h2>
+
+          <ul class="d-flex icons">
+            <li><i class="bi bi-facebook"></i></li>
+            <li><i class="bi bi-whatsapp"></i></li>
+            <li><i class="bi bi-instagram"></i></li>
+            <li><i class="bi bi-linkedin"></i></li>
+          </ul>
         </div>
 
-        <div class="upload-sec">
-          <div class="upload-box">
-            <i class="bi bi-cloud-arrow-up-fill"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
-                fill="currentColor" class="bi bi-cloud-arrow-up-fill" viewBox="0 0 16 16">
-                <path
-                  d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2m2.354 5.146a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0z" />
-              </svg></i>
-            <h5 class="mt-3">Upload Your Resume</h5>
-            <small>PDF format only, max 5MB</small>
-            <br>
-            <label class="btn btn-upload mt-3">
-              <i class="bi bi-cloud-arrow-up"></i> SELECT FILE
-              <input type="file" accept="application/pdf" hidden>
-            </label>
-          </div>
+        <div class="col-md-3">
+          <h5 class="text-white">Contact Us</h5>
+          <ul>
+            <li>portal.hiringmine@gmail.com</li>
+            <li>Life at HiringMine</li>
+            <li>About HiringMine</li>
+          </ul>
         </div>
+
+        <div class="col text-center text-white">
+          <hr>
+          <p>Privacy Policy Terms and Condition</p>
+          <p>Copyright Hiringmine 2025. All Rights Reserved</p>
+        </div>
+
       </div>
     </div>
-    <!-- section 4 end -->
-
-    <!-- section 5 start -->
-    <div class="container">
-      <div class="row mt-5">
-        <div class="accordion-heading">
-          <h2>Frequently Asked Questions</h2>
-        </div>
-        <div class="accordian">
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Accordion Item #1
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                  <code>.accordion-flush</code> class. This is the first item’s accordion body.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  Accordion Item #2
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
-                  <code>.accordion-flush</code> class. This is the second item’s accordion body. Let’s imagine this
-                  being filled with some actual content.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- section 5 end  -->
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+   </footer>
+  <!-- footer end -->
+</main>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
