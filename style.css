@@ -194,7 +194,7 @@ p.text-color {
 }
 /* footer */
 footer.footer.mt-5 {
-    padding: 60px 0px 20px 0px;
+    padding: 60px 0px 0px 0px;
     background: linear-gradient(180deg, #4d3bdb 0%, #9747ff 100%);
 }
 footer ul {
